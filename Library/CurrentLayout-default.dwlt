@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2329
     height: 1127
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 55
+  controlID: 15
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 56
+  controlID: 16
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 57
+  controlID: 17
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prephabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prephabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/game3/Snack attack
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6c3d0000
-    m_LastClickedID: 15724
-    m_ExpandedIDs: 00000000663d000000ca9a3b
+    m_SelectedIDs: a63d0000
+    m_LastClickedID: 15782
+    m_ExpandedIDs: 00000000a23d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000663d0000
+    m_ExpandedIDs: 00000000a23d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -543,9 +543,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 15.159467, y: 2.6062233, z: 1.5652606}
+    m_Target: {x: 11.4095125, y: -1.3966764, z: -0.009263967}
     speed: 2
-    m_Value: {x: 15.159467, y: 2.6062233, z: 1.5652606}
+    m_Value: {x: 11.4095125, y: -1.3966764, z: -0.009263968}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -592,13 +592,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.018060585, y: 0.98190206, z: -0.13817997, w: 0.12830055}
+    m_Target: {x: -0.29314616, y: 0.66167057, z: -0.31621355, w: -0.613416}
     speed: 2
-    m_Value: {x: 0.018060474, y: 0.981896, z: -0.13817912, w: 0.12829976}
+    m_Value: {x: -0.29175067, y: 0.66305995, z: -0.31565663, w: -0.6128572}
   m_Size:
-    m_Target: 7.071068
+    m_Target: 12.124355
     speed: 2
-    m_Value: 7.071068
+    m_Value: 12.124355
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -643,8 +643,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 544
-    y: 185
+    x: 579
+    y: 189
     width: 1369
     height: 616
   m_ViewDataDictionary: {fileID: 0}
@@ -732,8 +732,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 119
-    y: 822
+    x: 156
+    y: 826
     width: 1793
     height: 419
   m_ViewDataDictionary: {fileID: 0}
