@@ -177,7 +177,7 @@ MonoBehaviour:
   - {fileID: 81628403734951849, guid: 56223f2dcfc3d47d89261568e52a86cd, type: 3}
   - {fileID: 177238394866264830, guid: 10f676146410348b9bdd24a6aac3b09d, type: 3}
   startingSpawn: 5
-  spawnTiming: 1.5
+  spawnTiming: 1
 --- !u!4 &358429098
 Transform:
   m_ObjectHideFlags: 0
@@ -699,7 +699,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
@@ -716,7 +716,6 @@ GameObject:
   - component: {fileID: 1780560602}
   - component: {fileID: 1780560601}
   - component: {fileID: 1780560600}
-  - component: {fileID: 1780560604}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -801,19 +800,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1780560604
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1780560599}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb3085ba6457142afa1463967edd9a23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreToAdd: 0
 --- !u!1 &2056073488
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,6 +930,10 @@ PrefabInstance:
     - target: {fileID: 3672583746319940514, guid: 0ff6bf3ccb4234bdd8c2a2003c392d5c, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3672583746319940517, guid: 0ff6bf3ccb4234bdd8c2a2003c392d5c, type: 3}
+      propertyPath: score
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3672583746319940518, guid: 0ff6bf3ccb4234bdd8c2a2003c392d5c, type: 3}
       propertyPath: m_RootOrder
