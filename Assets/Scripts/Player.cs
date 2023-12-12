@@ -9,6 +9,8 @@ public class Player : MonoBehaviour
     public float horizontalInput; 
     public float fowardInput; 
     public int score = 0;
+    public ParticleSystem badParticle;
+    public ParticleSystem goodParticle;
 
     // Start is called before the first frame update
     void Start()
