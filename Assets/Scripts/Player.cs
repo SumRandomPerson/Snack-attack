@@ -27,5 +27,28 @@ public class Player : MonoBehaviour
         transform.Translate(Vector3.forward * Time.deltaTime * speed * fowardInput);
         transform.Translate(Vector3.right * turnSpeed * horizontalInput * Time.deltaTime);
     }
+
+
+private void OnCollisionEnter(Collision collision) {
+        
+        if (collision.gameObject.CompareTag("Point")){
+           goodParticle.Play();
+           
+        }
+    }
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
+
 

@@ -5,6 +5,7 @@ using UnityEngine;
 public class DetectCollisions : MonoBehaviour
 {
     public int scoreToAdd;
+     public ParticleSystem goodParticle;
     
     void OnTriggerEnter(Collider other)
    {
@@ -21,6 +22,14 @@ public class DetectCollisions : MonoBehaviour
             Destroy(gameObject);
         }
 
+
+   void OnCollisionEnter(Collision collision) {
+        
+        if (collision.gameObject.CompareTag("Player")){
+           goodParticle.Play();
+           
+        }
    }
     
+} 
 }
