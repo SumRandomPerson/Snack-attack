@@ -29,14 +29,16 @@ public class Player : MonoBehaviour
     }
 
 
-private void OnCollisionEnter(Collision collision) {
+private void OnTriggerEnter(Collider other) {
         
-        if (collision.gameObject.CompareTag("Point")){
+        if (other.gameObject.CompareTag("Point")){
            goodParticle.Play();
-           
+        
         }
+    else if (other.gameObject.CompareTag("Damage")){
+    badParticle.Play();
     }
-
+}
 
 
 

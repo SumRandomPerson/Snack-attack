@@ -6,6 +6,7 @@ TagManager:
   tags:
   - goodParticle
   - Point
+  - Damage
   layers:
   - Default
   - TransparentFX
