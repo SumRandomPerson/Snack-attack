@@ -11,11 +11,13 @@ public class Player : MonoBehaviour
     public int score = 0;
     public ParticleSystem badParticle;
     public ParticleSystem goodParticle;
-
+    private AudioSource playerAudio;
+    public AudioClip goodSound;
+    public AudioClip badSound;
     // Start is called before the first frame update
     void Start()
     {
-        
+        playerAudio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -33,10 +35,11 @@ private void OnTriggerEnter(Collider other) {
         
         if (other.gameObject.CompareTag("Point")){
            goodParticle.Play();
-        
+        playerAudio.PlayOneShot(goodSound, 1.0f);
         }
     else if (other.gameObject.CompareTag("Damage")){
     badParticle.Play();
+playerAudio.PlayOneShot(badSound, 1.0f);
     }
 }
 
